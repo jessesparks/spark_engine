@@ -1,0 +1,2 @@
+/usr/bin/ar qc libspark_engine.a CMakeFiles/spark_engine.dir/src/main.cpp.o
+/usr/bin/ranlib libspark_engine.a

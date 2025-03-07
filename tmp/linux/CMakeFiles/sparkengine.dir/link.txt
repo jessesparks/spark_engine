@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsparkengine.a CMakeFiles/sparkengine.dir/src/entry_point.cpp.o
+/usr/bin/ranlib libsparkengine.a
