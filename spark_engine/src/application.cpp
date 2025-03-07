@@ -4,14 +4,14 @@
 namespace spark
 {
 	Application::Application(const char* name)
-		: name(name)
+		: m_name(name)
 	{
 		std::cout << "Creating application\n";
 	}
 
 	void Application::Run()
 	{
-		std::cout << name << " running\n";
+		std::cout << m_name << " running\n";
 	}
 
 	Application::~Application()

@@ -9,6 +9,6 @@ namespace spark
 			~Application();
 			void Run();
 		private:
-			const char*  name;
+			const char*  m_name;
 	};
 }
