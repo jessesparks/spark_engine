@@ -1,3 +1,5 @@
+DEL bin\windows\TestGame.exe
+DEL bin\windows\spark_engine.lib
 mkdir bin\windows
 mkdir tmp\windows\test_game
 git submodule update --init --recursive

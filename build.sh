@@ -1,4 +1,6 @@
 #!/bin/bash
+rm bin/linux/TestGame
+rm bin/linux/libspark_engine.a
 
 mkdir -p bin/linux
 mkdir -p tmp/linux/test_game
