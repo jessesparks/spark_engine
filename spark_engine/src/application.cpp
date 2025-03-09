@@ -1,21 +1,21 @@
 #include "application.h"
-#include <iostream>
+#include "log.h"
 
 namespace spark
 {
 	Application::Application(const char* name)
 		: m_name(name)
 	{
-		std::cout << "Creating application\n";
+		SPARK_CORE_INFO("Creating application: {0}", m_name);
 	}
 
 	void Application::Run()
 	{
-		std::cout << m_name << " running\n";
+		SPARK_CORE_INFO("{0} running", m_name);
 	}
 
 	Application::~Application()
 	{
-		std::cout << "Destroying application\n";
+		SPARK_CORE_INFO("{0} destroyed", m_name);
 	}
 }

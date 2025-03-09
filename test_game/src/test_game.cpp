@@ -3,13 +3,14 @@
 int main()
 {
 	spark::engine::Initialize();
-	spark::Application* app = new spark::Application("Test Game");
+	SPARK_INFO("Test Game initialized Spark Engine");
+	spark::Application* test_game = new spark::Application("Test Game");
 
 
-	app->Run();
+	test_game->Run();
 
 
-	delete app;
+	delete test_game;
 	spark::engine::Shutdown();
 
 	return 0;

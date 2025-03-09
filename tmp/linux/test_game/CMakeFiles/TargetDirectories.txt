@@ -1,0 +1,6 @@
+/home/jesse/dev/spark_engine/tmp/linux/test_game/CMakeFiles/TestGame.dir
+/home/jesse/dev/spark_engine/tmp/linux/test_game/CMakeFiles/edit_cache.dir
+/home/jesse/dev/spark_engine/tmp/linux/test_game/CMakeFiles/rebuild_cache.dir
+/home/jesse/dev/spark_engine/tmp/linux/test_game/spark_engine/CMakeFiles/spark_engine.dir
+/home/jesse/dev/spark_engine/tmp/linux/test_game/spark_engine/CMakeFiles/edit_cache.dir
+/home/jesse/dev/spark_engine/tmp/linux/test_game/spark_engine/CMakeFiles/rebuild_cache.dir

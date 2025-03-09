@@ -1,0 +1,3 @@
+/home/jesse/dev/spark_engine/tmp/linux/CMakeFiles/spark_engine.dir
+/home/jesse/dev/spark_engine/tmp/linux/CMakeFiles/edit_cache.dir
+/home/jesse/dev/spark_engine/tmp/linux/CMakeFiles/rebuild_cache.dir

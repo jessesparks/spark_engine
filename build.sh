@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p tmp/linux/test_game
+
 cmake -S spark_engine -B tmp/linux
 make -C tmp/linux
 cp tmp/linux/libspark_engine.a bin/linux/libspark_engine.a

@@ -1,14 +1,16 @@
 #include <iostream>
+#include "log.h"
 
 namespace spark::engine
 {
 	inline void Initialize()
 	{
-		std::cout << "Spark Engine initializing\n";
+		Log::Init();
+		SPARK_CORE_INFO("Spark Engine initializing");
 	}
 
 	inline void Shutdown()
 	{
-		std::cout << "Spark Engine shutting down\n";
+		SPARK_CORE_INFO("Spark Engine shutting down");
 	}
 }

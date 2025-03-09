@@ -1,0 +1,3 @@
+[submodule "spark_engine/vendor/spdlog"]
+	path = spark_engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
