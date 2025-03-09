@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir -p bin/linux
 mkdir -p tmp/linux/test_game
 
 cmake -S spark_engine -B tmp/linux
